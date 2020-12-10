@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Sansita+Swashed:wght@600&family=Tangerine:wght@700&display=swap');
-/* *{
+ *{
     margin: 0;
-} */
+} 
 :root{
-    --primary-color: #FBBF24
+    --primary-color: #FBBF24;
+    --width-break: 600px;
 }
 body{
     font-family: 'Sansita Swashed', cursive;
@@ -15,32 +16,58 @@ body{
   padding: 2rem;
   font-size: larger;
 }
-
-.textBox-design{
+.textbox-alignment{
     display: block;
     padding: 0 3rem;
-    align: center;
+    margin-top: none;
+}
+
+.textBox-design{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: larger;
+    width: 90%;
+    height: 20vh;
+    border: 1px solid black;
+    
 }
 
 /* Footer */
 .footer{
     background-color:var(--primary-color);
     text-align: center;
+    padding: 1rem;
+    width: auto;
+    display: block;
 }
 
-.footer-header{
-    padding:  1rem;
+.footer .footer-header{
+    font-size: larger;
+    padding:  0.8rem;
+    max-width: var(--width-break);
+    margin: auto;
 }
 
-.footer-text{
+.footer .footer-text{
+    max-width: var(--width-break);   
+    display: block;
+    padding: 0.5rem;
     text-align: center;
-    display: ;
-    
+    margin: auto;
 }
 
 /* Button */
+
 .button{
 background-color: var(--primary-color);
-align: center;
-padding: 1rem 4rem;
+font-family: 'Sansita Swashed', cursive;
+padding: 1rem 2rem;
+margin: 1rem 2rem;
+font-size: larger;
+border: none;
+
+}
+
+.section-wh{
+    background-color: white;
+    padding: 17.5em;
 }
