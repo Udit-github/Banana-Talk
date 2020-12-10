@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Sansita+Swashed:wght@600&family=Tangerine:wght@700&display=swap');
+/* *{
+    margin: 0;
+} */
+:root{
+    --primary-color: #FBBF24
+}
+body{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.navigation{
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 2rem;
+  font-size: larger;
+}
+
+.textBox-design{
+    display: block;
+    padding: 0 3rem;
+    align: center;
+}
+
+/* Footer */
+.footer{
+    background-color:var(--primary-color);
+    text-align: center;
+}
+
+.footer-header{
+    padding:  1rem;
+}
+
+.footer-text{
+    text-align: center;
+    display: ;
+    
+}
+
+/* Button */
+.button{
+background-color: var(--primary-color);
+align: center;
+padding: 1rem 4rem;
+}
